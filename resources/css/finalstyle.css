@@ -1,3 +1,5 @@
+/*Header and Navigation*/
+
 header  {
   display: flex;
   width: 100%;
@@ -30,6 +32,13 @@ nav span {
   font-family: helvetica;
 }
 
+.logo {
+  display: flex;
+  flex-grow: 2;
+}
+
+/* Body - Mission. Locations and Contact Sections*/
+
 a {
   color: seashell;
   opacity: inherit;
@@ -40,6 +49,8 @@ h2 h3 h4 h5 {
   color: seashell;
   opacity: 1;
 }
+
+
 
 .tea img {
   height: 200px;
@@ -53,11 +64,6 @@ h2 h3 h4 h5 {
  padding: 5px;
  }
 
-.logo {
-  display: flex;
-  flex-grow: 2;
-}
-
   img {
   padding-left: 10px;
   height: 50px;
@@ -66,7 +72,7 @@ h2 h3 h4 h5 {
 
 .container {
   margin: 70px auto;
-  background-image: url('resources/images/img-mission-background.jpg');
+  background-image: url(''resources/images/img-mission-background.jpg'');
   background-position: center;
   background-size: cover;
   display: flex;
@@ -109,7 +115,7 @@ h2 h3 h4 h5 {
 
 .locations {
   margin: 70px auto;
-  background-image: url('resources/images/img-locations-background.jpg');
+  background-image: url(''resources/images/img-locations-background.jpg'');
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -134,6 +140,8 @@ h2 h3 h4 h5 {
   padding: 10px;
   opacity: 1;
 }
+/*Footer*/
+
 
 footer {
   text-align: left;
